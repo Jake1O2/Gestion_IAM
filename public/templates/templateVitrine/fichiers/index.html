@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<title>IAM | Institut Africain de Management</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta content="Plateforme numérique de gestion scolaire de l'Institut Africain de Management." name="description" />
+	<meta content="" name="author" />
+	
+	<!-- ================== BEGIN BASE CSS STYLE ================== -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+	<link href="../assets/css/one-page-parallax/app.min.css" rel="stylesheet" />
+	<!-- ================== END BASE CSS STYLE ================== -->
+
+	<style>
+		.text-primary { color: #1a6b3c !important; }
+		.btn-primary, .btn-theme.btn-primary { background-color: #1a6b3c !important; border-color: #1a6b3c !important; }
+		.btn-primary:hover { background-color: #145530 !important; border-color: #145530 !important; }
+		.bg-theme, .progress-bar.bg-theme { background-color: #1a6b3c !important; }
+
+		.header .navbar-brand {
+			height: 50px;
+			padding-top: 0;
+			padding-bottom: 0;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+		}
+		.navbar-brand img.iam-logo {
+			height: 36px;
+			width: auto;
+			margin-right: 8px;
+			display: block;
+			border-radius: 4px;
+			box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+			background: #ffffff;
+			padding: 2px;
+		}
+
+		.navbar-brand .brand-text,
+		.header.navbar-transparent.navbar-sm .navbar-brand .brand-text {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			font-size: 1rem;
+			letter-spacing: 0;
+			color: #333333 !important;
+		}
+		.navbar-brand .brand-text .text-primary,
+		.header.navbar-transparent.navbar-sm .navbar-brand .brand-text .text-primary {
+			color: #1a6b3c !important;
+		}
+
+		.header.navbar-transparent:not(.navbar-sm) .navbar-brand .brand-text {
+			color: #ffffff !important;
+		}
+		.header.navbar-transparent:not(.navbar-sm) .navbar-brand .brand-text .text-primary {
+			color: #7ed4a0 !important;
+		}
+	</style>
+</head>
+<body data-spy="scroll" data-target="#header" data-offset="51">
+	<!-- begin #page-container -->
+	<div id="page-container" class="fade">
+
+		<!-- begin #header -->
+		<div id="header" class="header navbar navbar-transparent navbar-fixed-top navbar-expand-lg">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">
+					<img src="../assets/img/logo-iam.jpg" alt="Logo IAM" class="iam-logo" />
+					<span class="brand-text">
+						<span class="text-primary">IAM</span> Gestion
+					</span>
+				</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="header-navbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-item"><a class="nav-link active" href="#home" data-click="scroll-to-target">ACCUEIL</a></li>
+						<li class="nav-item"><a class="nav-link" href="#about" data-click="scroll-to-target">À PROPOS</a></li>
+						<li class="nav-item"><a class="nav-link" href="#roles" data-click="scroll-to-target">ACTEURS</a></li>
+						<li class="nav-item"><a class="nav-link" href="#service" data-click="scroll-to-target">FONCTIONNALITÉS</a></li>
+						<li class="nav-item"><a class="nav-link" href="#contact" data-click="scroll-to-target">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- end #header -->
+
+		<!-- begin #home -->
+		<div id="home" class="content has-bg home">
+			<div class="content-bg" style="background-image: url(../assets/img/bg/bg-home.jpg);"
+				data-paroller="true"
+				data-paroller-factor="0.5"
+				data-paroller-factor-xs="0.25">
+			</div>
+			<div class="container home-content">
+				<h1>Institut Africain de Management</h1>
+				<h3>Plateforme de Gestion Scolaire</h3>
+				<p>
+					Un espace numérique centralisé pour les étudiants, enseignants, parents et services administratifs<br />
+					de l'IAM — pensé pour simplifier le quotidien de toute la communauté scolaire.
+				</p>
+				<a href="#roles" data-click="scroll-to-target" class="btn btn-theme btn-primary">Découvrir la plateforme</a>
+				<a href="#contact" data-click="scroll-to-target" class="btn btn-theme btn-outline-white">Nous contacter</a>
+			</div>
+		</div>
+		<!-- end #home -->
+
+		<!-- begin #about -->
+		<div id="about" class="content" data-scrollview="true">
+			<div class="container" data-animation="true" data-animation-type="fadeInDown">
+				<h2 class="content-title">À Propos de la Plateforme</h2>
+				<p class="content-desc">
+					Une solution développée spécifiquement pour l'Institut Africain de Management,<br />
+					pour connecter chaque acteur de la vie scolaire en un seul endroit.
+				</p>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="about">
+							<h3 class="mb-3">Notre Démarche</h3>
+							<p>
+								L'IAM s'engage à offrir à ses étudiants, enseignants et familles un accès simple et rapide
+								à toutes les informations essentielles : notes, cours, présences et paiements,
+								depuis n'importe quel appareil connecté.
+							</p>
+							<p>
+								La plateforme centralise la gestion scolaire et réduit les tâches administratives
+								pour que chacun puisse se concentrer sur l'essentiel : la réussite des étudiants.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<h3 class="mb-3">Notre Engagement</h3>
+						<div class="about-author">
+							<div class="quote">
+								<i class="fa fa-quote-left"></i>
+								<h3>Former les leaders<br /><span>de l'Afrique de demain</span></h3>
+								<i class="fa fa-quote-right"></i>
+							</div>
+							<div class="author">
+								<div class="image">
+									<img src="../assets/img/user/user-1.jpg" alt="Direction IAM" />
+								</div>
+								<div class="info">
+									Direction Générale
+									<small>Institut Africain de Management</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<h3 class="mb-3">En Chiffres</h3>
+						<div class="skills">
+							<div class="skills-name">Taux de satisfaction étudiants</div>
+							<div class="progress mb-3">
+								<div class="progress-bar progress-bar-striped progress-bar-animated bg-theme" style="width: 94%">
+									<span class="progress-number">94%</span>
+								</div>
+							</div>
+							<div class="skills-name">Cours planifiés en ligne</div>
+							<div class="progress mb-3">
+								<div class="progress-bar progress-bar-striped progress-bar-animated bg-theme" style="width: 100%">
+									<span class="progress-number">100%</span>
+								</div>
+							</div>
+							<div class="skills-name">Paiements traités numériquement</div>
+							<div class="progress mb-3">
+								<div class="progress-bar progress-bar-striped progress-bar-animated bg-theme" style="width: 88%">
+									<span class="progress-number">88%</span>
+								</div>
+							</div>
+							<div class="skills-name">Disponibilité de la plateforme</div>
+							<div class="progress mb-3">
+								<div class="progress-bar progress-bar-striped progress-bar-animated bg-theme" style="width: 99%">
+									<span class="progress-number">99%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end #about -->
+
+		<!-- begin #milestone -->
+		<div id="milestone" class="content bg-black-darker has-bg" data-scrollview="true">
+			<div class="content-bg" style="background-image: url(../assets/img/bg/bg-milestone.jpg)"
+				data-paroller="true"
+				data-paroller-factor="0.5"
+				data-paroller-factor-md="0.01"
+				data-paroller-factor-xs="0.01"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 milestone-col">
+						<div class="milestone">
+							<div class="number" data-animation="true" data-animation-type="number" data-final-number="1240">1 240</div>
+							<div class="title">Étudiants Inscrits</div>
+						</div>
+					</div>
+					<div class="col-lg-3 milestone-col">
+						<div class="milestone">
+							<div class="number" data-animation="true" data-animation-type="number" data-final-number="86">86</div>
+							<div class="title">Enseignants</div>
+						</div>
+					</div>
+					<div class="col-lg-3 milestone-col">
+						<div class="milestone">
+							<div class="number" data-animation="true" data-animation-type="number" data-final-number="342">342</div>
+							<div class="title">Cours Programmés</div>
+						</div>
+					</div>
+					<div class="col-lg-3 milestone-col">
+						<div class="milestone">
+							<div class="number" data-animation="true" data-animation-type="number" data-final-number="48">48</div>
+							<div class="title">Classes</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end #milestone -->
+
+		<!-- begin #roles -->
+		<div id="roles" class="content" data-scrollview="true">
+			<div class="container">
+				<h2 class="content-title">Les Acteurs de la Plateforme</h2>
+				<p class="content-desc">
+					Chaque membre de la communauté IAM dispose d'un espace dédié,<br />
+					avec les outils adaptés à son rôle au sein de l'établissement.
+				</p>
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="team">
+							<div class="image" data-animation="true" data-animation-type="flipInX">
+								<img src="../assets/img/user/user-3.jpg" alt="Étudiant" />
+							</div>
+							<div class="info">
+								<h3 class="name">Étudiant</h3>
+								<div class="title text-primary">ESPACE APPRENANT</div>
+								<p>Consulte ses notes et appréciations, visualise son emploi du temps, accède à ses cours et suit ses résultats par matière.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="team">
+							<div class="image" data-animation="true" data-animation-type="flipInX">
+								<img src="../assets/img/user/user-1.jpg" alt="Professeur" />
+							</div>
+							<div class="info">
+								<h3 class="name">Professeur</h3>
+								<div class="title text-primary">ESPACE ENSEIGNANT</div>
+								<p>Saisit les notes, gère les présences en classe, partage des documents pédagogiques et dispense ses cours selon son emploi du temps.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="team">
+							<div class="image" data-animation="true" data-animation-type="flipInX">
+								<img src="../assets/img/user/user-2.jpg" alt="Parent" />
+							</div>
+							<div class="info">
+								<h3 class="name">Parent</h3>
+								<div class="title text-primary">ESPACE FAMILLE</div>
+								<p>Suit en temps réel les notes et les absences de son enfant rattaché à la plateforme. Reste informé de l'évolution scolaire.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="team">
+							<div class="image" data-animation="true" data-animation-type="flipInX">
+								<img src="../assets/img/user/user-4.jpg" alt="Comptable" />
+							</div>
+							<div class="info">
+								<h3 class="name">Comptable</h3>
+								<div class="title text-primary">ESPACE FINANCIER</div>
+								<p>Valide les paiements des frais de scolarité et génère les reçus officiels avec référence de transaction pour chaque étudiant.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end #roles -->
+
+		<!-- begin #quote -->
+		<div id="quote" class="content bg-black-darker has-bg" data-scrollview="true">
+			<div class="content-bg" style="background-image: url(../assets/img/bg/bg-quote.jpg)"
+				data-paroller-factor="0.5"
+				data-paroller-factor-md="0.01"
+				data-paroller-factor-xs="0.01">
+			</div>
+			<div class="container" data-animation="true" data-animation-type="fadeInLeft">
+				<div class="row">
+					<div class="col-lg-12 quote">
+						<i class="fa fa-quote-left"></i> L'éducation est l'arme la plus puissante<br />
+						que vous pouvez utiliser pour <span class="text-primary">changer le monde</span>.
+						<i class="fa fa-quote-right"></i>
+						<small>Nelson Mandela</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end #quote -->
+
+		<!-- begin #service -->
+		<div id="service" class="content" data-scrollview="true">
+			<div class="container">
+				<h2 class="content-title">Fonctionnalités</h2>
+				<p class="content-desc">
+					Tout ce dont l'IAM a besoin pour une gestion scolaire fluide et transparente,<br />
+					accessible depuis un seul et même espace numérique.
+				</p>
+				<div class="row">
+					<div class="col-lg-4 col-md-6">
+						<div class="service">
+							<div class="icon" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-user-graduate"></i></div>
+							<div class="info">
+								<h4 class="title">Gestion des Étudiants</h4>
+								<p class="desc">Chaque étudiant est enregistré avec son code, son niveau et sa classe. Son parcours est suivi tout au long de sa scolarité à l'IAM.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="service">
+							<div class="icon" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-star-half-alt"></i></div>
+							<div class="info">
+								<h4 class="title">Notes & Appréciations</h4>
+								<p class="desc">Les enseignants saisissent les notes et appréciations par cours. Les étudiants et parents les consultent directement depuis leur espace.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="service">
+							<div class="icon" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-calendar-alt"></i></div>
+							<div class="info">
+								<h4 class="title">Emploi du Temps</h4>
+								<p class="desc">Les cours sont planifiés avec matière, horaire, salle et enseignant. Chaque étudiant accède à son planning depuis son espace personnel.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="service">
+							<div class="icon" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-clipboard-list"></i></div>
+							<div class="info">
+								<h4 class="title">Présences & Absences</h4>
+								<p class="desc">Les enseignants enregistrent les présences à chaque séance. Les parents sont notifiés en cas d'absence de leur enfant.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="service">
+							<div class="icon" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-file-invoice-dollar"></i></div>
+							<div class="info">
+								<h4 class="title">Paiements & Reçus</h4>
+								<p class="desc">Le service comptable suit les paiements de scolarité de chaque étudiant — montant, date, statut — et génère les reçus officiels.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="service">
+							<div class="icon" data-animation="true" data-animation-type="bounceIn"><i class="fa fa-folder-open"></i></div>
+							<div class="info">
+								<h4 class="title">Partage de Documents</h4>
+								<p class="desc">Les enseignants déposent leurs supports de cours directement sur la plateforme. Les étudiants y accèdent à tout moment, depuis n'importe où.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end #service -->
+
+		<!-- begin #action-box -->
+		<div id="action-box" class="content has-bg" data-scrollview="true">
+			<div class="content-bg" style="background-image: url(../assets/img/bg/bg-action.jpg)"
+				data-paroller-factor="0.5"
+				data-paroller-factor-md="0.01"
+				data-paroller-factor-xs="0.01">
+			</div>
+			<div class="container" data-animation="true" data-animation-type="fadeInRight">
+				<div class="row action-box">
+					<div class="col-lg-9">
+						<div class="icon-large text-primary">
+							<i class="fa fa-graduation-cap"></i>
+						</div>
+						<h3>REJOIGNEZ LA COMMUNAUTÉ IAM EN LIGNE</h3>
+						<p>
+							Étudiants, enseignants et familles — votre espace numérique est prêt. Connectez-vous et profitez d'une expérience scolaire simplifiée.
+						</p>
+					</div>
+					<div class="col-lg-3">
+						<a href="#contact" data-click="scroll-to-target" class="btn btn-outline-white btn-theme btn-block">Se Connecter</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end #action-box -->
+
+		<!-- begin #client -->
+		<div id="client" class="content has-bg bg-green" data-scrollview="true">
+			<div class="content-bg" style="background-image: url(../assets/img/bg/bg-client.jpg)"
+				data-paroller-factor="0.5"
+				data-paroller-factor-md="0.01"
+				data-paroller-factor-xs="0.01">
+			</div>
+			<div class="container" data-animation="true" data-animation-type="fadeInUp">
+				<h2 class="content-title">Ils Utilisent la Plateforme</h2>
+				<div class="carousel testimonials slide" data-ride="carousel" id="testimonials">
+					<div class="carousel-inner text-center">
+						<div class="carousel-item active">
+							<blockquote>
+								<i class="fa fa-quote-left"></i>
+								Depuis que j'utilise la plateforme, je consulte mes notes et mon emploi du temps
+								sans avoir à me déplacer à l'administration. Tout est clair et accessible.
+								<i class="fa fa-quote-right"></i>
+							</blockquote>
+							<div class="name"> — <span class="text-primary">Aminata D.</span>, Étudiante en Master Management</div>
+						</div>
+						<div class="carousel-item">
+							<blockquote>
+								<i class="fa fa-quote-left"></i>
+								La saisie des notes est rapide et mes étudiants reçoivent leurs résultats immédiatement.
+								Je gagne un temps précieux sur les tâches administratives.
+								<i class="fa fa-quote-right"></i>
+							</blockquote>
+							<div class="name"> — <span class="text-primary">M. Ndiaye</span>, Enseignant en Finance</div>
+						</div>
+						<div class="carousel-item">
+							<blockquote>
+								<i class="fa fa-quote-left"></i>
+								Je suis les résultats et les absences de mon fils directement depuis mon téléphone.
+								Je suis beaucoup plus proche de sa scolarité qu'avant.
+								<i class="fa fa-quote-right"></i>
+							</blockquote>
+							<div class="name"> — <span class="text-primary">M. Fall</span>, Parent d'étudiant</div>
+						</div>
+					</div>
+					<ol class="carousel-indicators m-b-0">
+						<li data-target="#testimonials" data-slide-to="0" class="active"></li>
+						<li data-target="#testimonials" data-slide-to="1"></li>
+						<li data-target="#testimonials" data-slide-to="2"></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<!-- end #client -->
+
+		<!-- begin #contact -->
+		<div id="contact" class="content bg-silver-lighter" data-scrollview="true">
+			<div class="container">
+				<h2 class="content-title">Contact</h2>
+				<p class="content-desc">
+					Une question sur la plateforme ? Un problème d'accès à votre espace ?<br />
+					L'équipe de l'IAM est disponible pour vous aider.
+				</p>
+				<div class="row">
+					<div class="col-lg-6" data-animation="true" data-animation-type="fadeInLeft">
+						<h3>Institut Africain de Management</h3>
+						<p>
+							Pour toute demande relative à la plateforme — accès, identifiants, informations scolaires —
+							contactez le service concerné ou envoyez-nous un message via le formulaire.
+						</p>
+						<p>
+							<strong>Institut Africain de Management</strong><br />
+							Mermoz, villa 7606, Dakar, BP 15391<br />
+							Tél : (00) 221 33 869 36 36<br />
+							Mobile : +221 77 698 39 66
+						</p>
+						<p>
+							<a href="mailto:info@groupeiam.com" class="text-primary">info@groupeiam.com</a><br />
+							<a href="mailto:registrariat@groupeiam.com" class="text-primary">registrariat@groupeiam.com</a>
+						</p>
+					</div>
+					<div class="col-lg-6 form-col" data-animation="true" data-animation-type="fadeInRight">
+						<form class="form-horizontal">
+							<div class="form-group row m-b-15">
+								<label class="col-form-label col-lg-3 text-lg-right">Nom <span class="text-primary">*</span></label>
+								<div class="col-lg-9">
+									<input type="text" class="form-control" placeholder="Votre nom complet" />
+								</div>
+							</div>
+							<div class="form-group row m-b-15">
+								<label class="col-form-label col-lg-3 text-lg-right">Email <span class="text-primary">*</span></label>
+								<div class="col-lg-9">
+									<input type="email" class="form-control" placeholder="votre@email.com" />
+								</div>
+							</div>
+							<div class="form-group row m-b-15">
+								<label class="col-form-label col-lg-3 text-lg-right">Profil</label>
+								<div class="col-lg-9">
+									<select class="form-control">
+										<option>Étudiant</option>
+										<option>Enseignant</option>
+										<option>Parent</option>
+										<option>Autre</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group row m-b-15">
+								<label class="col-form-label col-lg-3 text-lg-right">Message <span class="text-primary">*</span></label>
+								<div class="col-lg-9">
+									<textarea class="form-control" rows="6" placeholder="Décrivez votre demande..."></textarea>
+								</div>
+							</div>
+							<div class="form-group row m-b-15">
+								<label class="col-form-label col-lg-3 text-lg-right"></label>
+								<div class="col-lg-9 text-left">
+									<button type="submit" class="btn btn-theme btn-primary btn-block">Envoyer le Message</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end #contact -->
+
+		<!-- begin #footer -->
+		<div id="footer" class="footer">
+			<div class="container">
+				<div class="footer-brand">
+					<div class="footer-brand-logo"></div>
+					IAM Gestion
+				</div>
+				<p>
+					&copy; 2026 Institut Africain de Management — Mermoz, villa 7606, Dakar, BP 15391<br />
+					Plateforme de gestion scolaire — Tous droits réservés.
+				</p>
+				<p class="social-list">
+					<a href="https://www.facebook.com/GroupeIAM/" target="_blank"><i class="fab fa-facebook-f fa-fw"></i></a>
+					<a href="https://www.instagram.com/groupeiam/" target="_blank"><i class="fab fa-instagram fa-fw"></i></a>
+					<a href="https://twitter.com/groupeiam" target="_blank"><i class="fab fa-twitter fa-fw"></i></a>
+					<a href="https://www.linkedin.com/school/groupe-institut-africain-de-management/" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a>
+				</p>
+			</div>
+		</div>
+		<!-- end #footer -->
+
+		<!-- begin theme-panel -->
+		<div class="theme-panel">
+			<a href="javascript:;" data-click="theme-panel-expand" class="theme-collapse-btn"><i class="fa fa-cog"></i></a>
+			<div class="theme-panel-content">
+				<ul class="theme-list clearfix">
+					<li><a href="javascript:;" class="bg-red" data-theme="red" data-theme-file="../assets/css/one-page-parallax/theme/red.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Red" data-original-title="" title="">&nbsp;</a></li>
+					<li><a href="javascript:;" class="bg-pink" data-theme="pink" data-theme-file="../assets/css/one-page-parallax/theme/pink.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Pink" data-original-title="" title="">&nbsp;</a></li>
+					<li><a href="javascript:;" class="bg-orange" data-theme="orange" data-theme-file="../assets/css/one-page-parallax/theme/orange.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Orange" data-original-title="" title="">&nbsp;</a></li>
+					<li><a href="javascript:;" class="bg-yellow" data-theme="yellow" data-theme-file="../assets/css/one-page-parallax/theme/yellow.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Yellow" data-original-title="" title="">&nbsp;</a></li>
+					<li><a href="javascript:;" class="bg-lime" data-theme="lime" data-theme-file="../assets/css/one-page-parallax/theme/lime.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Lime" data-original-title="" title="">&nbsp;</a></li>
+					<li class="active"><a href="javascript:;" class="bg-green" data-theme="green" data-theme-file="../assets/css/one-page-parallax/theme/green.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Green" data-original-title="" title="">&nbsp;</a></li>
+					<li><a href="javascript:;" class="bg-teal" data-theme-file="../assets/css/one-page-parallax/theme/teal.min.css" data-theme="teal" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Teal" data-original-title="" title="">&nbsp;</a></li>
+					<li><a href="javascript:;" class="bg-aqua" data-theme="aqua" data-theme-file="../assets/css/one-page-parallax/theme/aqua.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Aqua" data-original-title="" title="">&nbsp;</a></li>
+					<li><a href="javascript:;" class="bg-blue" data-theme="blue" data-theme-file="../assets/css/one-page-parallax/theme/blue.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Blue" data-original-title="" title="">&nbsp;</a></li>
+					<li><a href="javascript:;" class="bg-purple" data-theme="purple" data-theme-file="../assets/css/one-page-parallax/theme/purple.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Purple" data-original-title="" title="">&nbsp;</a></li>
+					<li><a href="javascript:;" class="bg-indigo" data-theme="indigo" data-theme-file="../assets/css/one-page-parallax/theme/indigo.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Indigo" data-original-title="" title="">&nbsp;</a></li>
+					<li><a href="javascript:;" class="bg-black" data-theme="black" data-theme-file="../assets/css/one-page-parallax/theme/black.min.css" data-click="theme-selector" data-toggle="tooltip" data-trigger="hover" data-container="body" data-title="Black" data-original-title="" title="">&nbsp;</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- end theme-panel -->
+
+	</div>
+	<!-- end #page-container -->
+
+	<!-- ================== BEGIN BASE JS ================== -->
+	<script src="../assets/js/one-page-parallax/app.min.js"></script>
+	<!-- ================== END BASE JS ================== -->
+</body>
+</html>

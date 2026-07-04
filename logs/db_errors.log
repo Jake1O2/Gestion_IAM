@@ -1,0 +1,15 @@
+2026-06-16T16:09:52+02:00 - findByEmail error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T11:53:40+02:00 - findByEmail error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T11:53:40+02:00 - create user error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T13:14:53+02:00 - findByEmail error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T13:18:06+02:00 - findByEmail error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T14:47:18+02:00 - findByEmail error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T14:47:18+02:00 - create user error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T14:54:58+02:00 - findByEmail error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T14:54:58+02:00 - create user error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T15:00:23+02:00 - findByEmail error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T15:00:23+02:00 - create user error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T15:00:38+02:00 - findByEmail error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T15:00:38+02:00 - create user error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T15:01:20+02:00 - findByEmail error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
+2026-06-20T15:01:20+02:00 - create user error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gestion_system.users' doesn't exist
